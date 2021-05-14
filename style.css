@@ -1,31 +1,33 @@
-#Alumni{
-    position: absolute;
-    color: #FFFFFF;
-    bottom:0;
-    display:table;
-    width:70%;
-    height: 70%;
-    z-index:9; 
-}
-.parallax-inner{
-    display:table-cell;
-    position: relative;
+body{
     text-align: center;
-    vertical-align: middle;
+    margin: 50px;
 }
+
 .links{
-    display: ;
+    position: fixed;
     padding-left: 33px;
     padding-right: 25px;
     font-family: fantasy;
     font-size: 20px;
+    
 }
 .links:hover{
     font-size: 25px;
 }
 html{
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 .menu{
     position: fixed;
+}
+#Contact us{
+    margin-top:50px;
+    
+}
+.contact_1{
+    display: inline;
+    
+}
+#details{
+    display: inline;
 }
